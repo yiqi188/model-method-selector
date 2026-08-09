@@ -1,0 +1,6 @@
+interface:
+  display_name: "建模方法筛选器"
+  short_description: "对比论文摘要与数据，筛选可行的建模方法和模型"
+  default_prompt: "Use $model-method-selector to compare these abstracts and recommend a justified modeling method and model."
+policy:
+  allow_implicit_invocation: true
